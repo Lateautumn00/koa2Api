@@ -1,7 +1,8 @@
+koa2整合log4js、jwt、redis、mysql  
+需要node8.11以上
 # install dependencies
 $ cnpm install -g koa-generator  安装脚手架工具
 $ cnpm install -g nodemon 测试运行使用
-$ cnpm install -g pm2    生产环境使用
 $ cnpm install
 
 # serve with hot reload at localhost:3920
@@ -34,8 +35,4 @@ pm2 describe 0
 pm2 start app.js -i 3 # 开启三个进程
 pm2 start app.js -i max # 根据机器CPU核数，开启对应数目的进程
 pm2 start app.js -i 0，则会根据机器当前核数自动开启尽可能多的进程
-
-商城（淘宝客） taobaobuyer分支
-
-微信api   wechat分支
 
