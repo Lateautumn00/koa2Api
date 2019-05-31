@@ -1,0 +1,21 @@
+{
+    "mysql": {
+        "host": "127.0.0.1",
+        "user": "root",
+        "password": "root",
+        "database": "servicenode",
+        "prefix":"ser_"
+    },
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379,
+        "prefix":"server_node_qk_",
+        "password":""
+    },
+    "jwt":{
+        "secret":"f9ea6befeb703fb3"
+    },
+    "md5":{
+        "token":"cb47c0ac79a1396b"
+    }
+}
